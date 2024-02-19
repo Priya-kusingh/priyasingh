@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="pstyle.css" />
+    <script src="https://kit.fontawesome.com/2e6204dfef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.jpg" alt="no action.png" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello...</p>
+                <h1>I'm a professional <br><span>Front-End/Web Developer</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- /*--------about section--*/ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img23.png" alt="" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>
+                        I am Priya Singh Kushwaha. Bringing you <span> Web Development and design from the
+                            future.</span> My experties is developing next-level websits and Web applications including
+                        full Front-End design
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At deleniti similique, illum assumenda
+                        facere provident sunt officia ex sapiente delectus.
+                    </p>
+
+                    <div class="tab-tittle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('training')">Training</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Developer / Website Developer / Web Development</span><br>
+                            <li>HTML/HTML5</li>
+                            <li>C Language</li>
+                            <li>CSS/CSS3</li>
+                            <LI>Bootstrap</LI>
+                            <li>JavaScript</li>
+                            <li>MS SQL</li>
+                            <li>React.js</li>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="training">
+                        <ul>
+                            <li><span>Software Engineer Trainee(01/07/2022 - 04/10/2022)</span> <br>UNIQUE TECHNOLOGIES
+                                GREEN ENERGY CLEAN WATER NOIDA<br> <br>
+                                <p>The trainee’s responsibility may include learning programming languages,
+                                    software development methodologies and industry best practices. It is also be
+                                    involved in codding, testing, debugging and maintaining software applications.
+                                    The goal of the training program is to equip the trainee with the technical skills.
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>B.TECH || From Dr. A.P. J. Abdul Kalam Technical University
+                                Lucknow U.P - <span>(CGPA-7.71)</span></li>
+                            <li><span>2017-2019</span><br>INTERMEDIATE || From Shree Alagu Yadav Inter Collage Barenda
+                                Ghazipur U. P - <span> (72.2%)</span></li>
+                            <li><span>High School</span><br> Amil Abdul Gafur UMV Mata Ghazipur - <span>(78.3%)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>Mini Project</span> <br> Student Management System (Based on  C language)</li>
+                                <li><span>Major Project</span></li>
+                                <li><span>1. Aid portal</span><br>(Based on HTML, CSS, JAVASCRIPT, SQL, AWS)</li>
+                                <li><span>2. Weather application</span><br> (Based on HTML, CSS, JAVASCRIPT, REACT.JS,)</li>                             
+                               
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Front-End Developer</h2>
+                    <p>My focuse on creating the visual and intractive element of a website that users directly intract with. I am usessome languages like HTML, CSS, JavaScript to built the User interface.</p>
+                    
+                </div>
+                <div>
+                    <h2>Website Developer</h2>
+                    <p>I am  design, builds, and maintains websites. frontend development, dealing with visual aand interactive that users see. Website developers uses various programing language HTML, CSS, JavaScript.  </p>
+                   
+                </div>
+                <div>
+                    <h2>Web Development</h2>
+                    <p>I am creating and maintaining websites or web applications. It involves a combination of frontend development, focusing on the user interface. I am use a variety of programming languages and frameworks .</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------portfolio---- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">Certificates</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Javascript.png" alt="#">
+                    <div class="layer">
+                        <h3>JavaScript </h3>
+                        <p>Course completed by Infosys Springbard </p>
+                        <a href="javascript.pdf"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="work">
+                    <img src="security1.jpg" alt="#">
+                    <div class="layer">
+                        <h3>CSS</h3>
+                        <p>CSS course offered by IIT Kanpur</p>
+                        <a href="https://ict-certificates.s3.ap-south-1.amazonaws.com/17793-95864-76eae00302aad0ee-2021.pdf"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="hck.png" alt="#">
+                    <div class="layer">
+                        <h3>HACK IT OUT </h3>
+                        <p>Hack It Out event participate in IIT BHU</p>
+
+                        <a href="Priya Singh Kushwaha  Hack It Out.pdf"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="" class="btn">See More</a> -->
+        </div>
+    </div>
+    <!-- -------------------------------contact------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>priyasingh@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9565272985</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/priya-singh-kushwaha-901786232?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FdCNqcQkTyuH5HQgdjzLXQ%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Priya-kusingh"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/PriyaSi54272281"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="priya kushwaha1.pdf" download class="btn btn1">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                          <input type="text" name="Name" placeholder="Enter Your Name" required>
+                          <input type="email" name="Email" placeholder="  Enter Your Email" required>
+                          <textarea name="Message"  rows="6" placeholder="Enter Your Messages"></textarea>
+                          <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+
+
+        </div>
+       
+    </div>
+    <div class="copyright">
+        <p>Copyright 2024 @ Developed by <i class="fa-solid fa-heart "></i> Priya Kushwaha</p>
+    </div>
+    <script src="pscript.js">
+
+    </script>
+</body>
+
+</html>
